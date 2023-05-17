@@ -1,0 +1,409 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+	transition: all 250ms ease-in-out;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
+	border: none;
+
+}
+
+
+
+h1 {
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 80px;
+}
+
+h2 {
+	font-size: 48px;
+	margin-bottom: 30px;
+}
+
+.img_line {
+	
+
+}
+
+
+
+p {
+	font-size: 18px;
+	color: #999999;
+	line-height: 1.8;
+	margin-bottom: 0;	
+}
+
+ul{
+	list-style: none;
+}
+
+section {
+	padding: 120px 0;
+}
+
+
+/* Navbar */
+.btn {
+	font-size: 14px;
+	padding: 15px 20px;
+	min-width: 160px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.btn-light {
+	background-color: #ffffff;
+	color: #1a1a1a;
+	border: 2px solid #ffffff;
+}
+
+.btn i { font-size: 14px; margin-left: 5px; }
+
+.topmargin-xs { margin-top: 15px; }
+.topmargin-sm { margin-top: 30px; }
+.topmargin-lg { margin-top: 60px; }
+
+.navbar {  /* Navbar etiqueta raiz */
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, ,05);
+}
+
+.nav-link { color: #777777; }
+.nav-link:hover { color: #777777 !important; }
+.navbar-toggler { font-size: 20px; }
+.navbar-toggler:focus { outline: none; }
+
+
+
+	/* Codigo cerrado */
+
+
+/* Titulo INICIO */
+.inicio{
+	background-image: url('../image/background1.jpg');
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 700px;
+	color: #ffffff;
+	border-bottom: 3px black solid;
+}
+
+.inicio p {
+	color: #ffffff;
+}
+	/* Codigo cerrado */
+
+
+/* Contenido central de INICIO */
+.content-center {		/* TITULO INICIO - BOX */
+	max-width: 800px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+}
+
+
+
+
+.row {		/* FOTOS EQUIPO - BOX */
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align: center;
+}
+
+.content {	/* EJEMPLO - BOX */
+	padding: 90px 0;
+	vertical-align: middle;
+	overflow: hidden;
+	text-align: center;
+	margin: 10px auto 0 auto;
+	border: black 5px dashed;
+}
+
+.content-2 {	/* NUESTRO EQUIPO - BOX */
+	padding: 90px 0;
+	vertical-align: middle;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	border: black 5px dashed;
+	
+}
+
+.content-3 {	/* FOTOS EQUIPO - BOX */
+	padding: 90px 0;
+	vertical-align: middle;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	border: black 5px dashed;
+	
+}
+
+
+.content-p {	
+	margin-bottom: 20px;
+}
+
+.fullbox {
+	width: 900px;
+	height: 420px;
+	float: left;
+	margin: 5px 20% 5px 20%;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	border: black 5px dashed; /* BORDE MARGEN */
+}
+
+.fichboxa {
+	float: left;
+	padding: 2% 2% 8% 2%;
+	background-color: #f1f1f1;
+	border-radius: 22px;
+	width: 50%;
+	margin: 10px 20px 10px 20px;
+	
+}
+	
+
+.fichboxb {
+	float: left;
+	padding: 2% 2% 8% 2%;
+	background-color: #f1f1f1;
+	border-radius: 22px;
+	width: 50%;
+	margin: 10px 20px 10px 20px;
+}
+
+.fichboxc {
+	float: left;
+	padding: 2% 2% 8% 2%;
+	background-color: #f1f1f1;
+	border-radius: 22px;
+	width: 50%;
+	margin: 10px 20px 10px 20px;
+}
+
+.tltbx {
+	font-size: 16px;
+	
+}
+
+.texttbx {
+	font-size: 12px;
+	
+}
+
+.img-fluid{		/* Imagen 1 de la etiqueta EJEMPLO */
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+.thumbnail {	/* Miniatura Imagen Equipo - BOX */
+	margin-top: 15px;
+}
+
+
+
+.image {
+	display: block;
+	width: 100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: ,5s ease;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.caption{
+	font-size: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.thumbnail:hover {
+	transform: translateY(-2px);
+	
+}
+
+.img-container:hover .overlay {
+	opacity: 1;
+}
+
+.maps {
+	
+	
+}
+/* Codigo cerrado */
+
+
+/* Footer */
+.footer{
+	background-color: #24262b;
+	padding: 70px 0;	
+}
+
+.footer-container {
+	max-width: 1170px;
+	margin: auto;	
+}
+
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration:  none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;	
+}
+	
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 10px 10px 0; 
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}	
+	
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}	
+	/* Codigo cerrado */
+
+
+
+
+/* Responsive */
+@media (max-width: 800px) and (min-width: 576px) { 	
+	.row {
+		display: block;
+		position: relative;	
+		vertical-align: top;
+	}
+	
+	.img-container{
+		width: 210%;
+	}
+	
+	.caption{
+		font-size: 3rem;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+	}
+	
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 210%;
+		opacity: 0;
+		transition: ,5s ease;
+		background-color: rgba(255,255,255,0.9);
+	}
+	
+	.img-container:hover .overlay {
+		opacity: 1;
+	}
+	
+	.thumbnail:hover {
+		transform: translateY(-4px);
+	
+	}
+	
+}
+
+@media (max-width: 575.98px) { 
+	h1 { font-size: 40px; line-height: normal; }
+	
+
+ }
+ 
+@media (max-width: 767px) { 
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	
+	
+}
+
+@media (max-width: 574px) { 
+	.footer-col {
+		width: 100%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }
